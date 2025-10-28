@@ -1,0 +1,10 @@
+.item {
+  display: flex;
+  gap: 15px;
+  marker: none;
+  min-width: 205px;
+
+  .itemTitle:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
